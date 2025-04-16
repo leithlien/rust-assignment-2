@@ -1,0 +1,9 @@
+set A1 sleep_then(2500, 1)
+get A1
+get A1
+get A1
+get A1
+get A1
+get A1
+get A1
+get A1

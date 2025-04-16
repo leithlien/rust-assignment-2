@@ -1,0 +1,16 @@
+set A1 "t"
+set A2 "e"
+set A3 "s"
+set A4 "t"
+set B1 "1"
+set B2 "2"
+set B3 3
+set B4 4
+get A1
+get B1
+get A2
+get B2
+get A3
+get B3
+get A4
+get B4

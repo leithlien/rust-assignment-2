@@ -1,0 +1,5 @@
+set A1 3
+set B1 A1 + 3
+get A1
+set A1 4
+get A1

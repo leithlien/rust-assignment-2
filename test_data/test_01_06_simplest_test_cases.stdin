@@ -1,0 +1,2 @@
+set A3 "This is a string!"
+get A3

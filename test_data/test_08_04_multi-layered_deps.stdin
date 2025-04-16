@@ -1,0 +1,17 @@
+set A1 1
+set A2 1
+set A3 1
+set B1 2
+set B2 2
+set B3 2
+set C1 3
+set C2 3
+set C3 3
+set ANS1 sum(A1_B2)
+set ANS2 sum(B2_C3)
+get ANS1
+get ANS2
+set B2 77
+A: sleep 2000
+A: get ANS1
+A: get ANS2

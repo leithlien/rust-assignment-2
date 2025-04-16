@@ -1,0 +1,4 @@
+set A7 "test"
+set A6 silly-error
+get A6
+get A7

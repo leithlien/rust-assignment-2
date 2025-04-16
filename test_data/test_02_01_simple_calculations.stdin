@@ -1,0 +1,4 @@
+set A1 1 + 1
+set A2 7 + 14
+get A1
+get A2

@@ -1,0 +1,4 @@
+set A1 error-this-isn't real code
+set A2 A1
+get A1
+get A2

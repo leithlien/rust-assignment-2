@@ -1,0 +1,19 @@
+a: set A1 5
+a: sleep 2000
+a: set A2 A1 + 1
+a: set A3 A1 + A2
+b: sleep 2000
+b: set B1 A1 + 1
+b: set C1 B1 + A1
+c: sleep 2000
+c: set B2 A1
+c: set C3 2 * B2
+d: sleep 4000
+d: get A3
+d: get C3
+d: get C1
+d: set A1 9
+d: sleep 2000
+d: set D4 C3 + C1 + A3
+e: sleep 8000
+e: get D4

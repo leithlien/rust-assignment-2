@@ -1,0 +1,9 @@
+set A1 1
+set A2 A1 + 1
+set A3 A2 + 1
+set A4 A3 + 1
+set A5 A4 + 1
+get A5
+set A1 7
+sleep 2000
+get A5

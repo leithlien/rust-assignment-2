@@ -1,0 +1,4 @@
+set A1 2
+set A2 (A1 + 1) * 2
+get A1
+get A2

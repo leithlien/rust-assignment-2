@@ -1,0 +1,7 @@
+set A1 1
+set A2 A1 + 1
+set A3 A1 + A2 +1
+get A3
+set A1 2
+sleep 400
+get A3

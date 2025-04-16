@@ -1,0 +1,8 @@
+a: set A1 1
+b: sleep 400
+b: set A2 sleep_then(400, A1 + 7)
+b: get A2
+c: sleep 1200
+c: set A1 3
+c: sleep 800
+c: get A2

@@ -1,0 +1,3 @@
+a: set A1 3
+b: set A2 sleep_then(400, 1)
+b: get A1

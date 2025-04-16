@@ -1,0 +1,11 @@
+set A1 3 + 8
+set A2 7 - 2
+set A3 A1 + A2
+get A1
+get A2
+get A3
+set A1 11 + 16 * 2
+get A1
+get A2
+sleep 2000
+get A3

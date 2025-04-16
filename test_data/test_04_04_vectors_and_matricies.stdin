@@ -1,0 +1,12 @@
+set F11 1
+set F12 2
+set F13 3
+set F14 8
+set G11 7
+set G12 42
+set G13 99
+set G14 615
+set C1 sum(F11_G13)
+set C2 sum(F12_G14)
+get C1
+get C2

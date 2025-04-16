@@ -1,0 +1,2 @@
+set A1 asdf-not-a-command
+get A1

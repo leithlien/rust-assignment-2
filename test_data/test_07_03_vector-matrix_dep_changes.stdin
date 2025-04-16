@@ -1,0 +1,14 @@
+set A1 1
+set A2 2
+set A3 3
+set B1 1
+set B2 2
+set B3 3
+set D1 sum(A1_B2)
+set D2 sum(A1_B3)
+get D1
+get D2
+set B2 10
+sleep 2000
+get D1
+get D2

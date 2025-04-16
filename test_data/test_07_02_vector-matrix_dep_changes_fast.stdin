@@ -1,0 +1,11 @@
+set A1 1
+set B1 2
+set C1 3
+set D1 sum(A1_C1)
+get D1
+set A1 4
+sleep 400
+get D1
+set C1 10
+sleep 400
+get D1

@@ -1,0 +1,4 @@
+set A1 1
+get A1
+set A1 2
+get A1

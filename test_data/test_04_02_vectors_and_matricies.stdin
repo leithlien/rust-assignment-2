@@ -1,0 +1,8 @@
+set A1 1
+set A2 2
+set B1 3
+set B2 4
+set C1 sum(A1_B1)
+set C2 sum(A2_B2)
+get C1
+get C2

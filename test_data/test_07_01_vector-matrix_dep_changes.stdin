@@ -1,0 +1,11 @@
+set A1 1
+set A2 2
+set A3 3
+set C1 sum(A1_A3)
+get C1
+set A1 4
+sleep 2000
+get C1
+set A3 10
+sleep 2000
+get C1

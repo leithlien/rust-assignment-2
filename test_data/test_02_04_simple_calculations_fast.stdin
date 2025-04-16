@@ -1,0 +1,2 @@
+set A1 "a" + "b" + "c"
+get A1
