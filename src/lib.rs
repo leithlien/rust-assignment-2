@@ -20,17 +20,8 @@ pub fn start_server<M>(mut manager: M) -> Result<(), Box<dyn Error>>
 where
     M: Manager,
 {
-    // This initiates a single client connection, and reads and writes messages
-    // indefinitely.
-    // let (mut recv, mut send) = match manager.accept_new_connection() {
-    //     Connection::NewConnection { reader, writer } => (reader, writer),
-    //     Connection::NoMoreConnections => {
-    //         // There are no more new connections to accept.
-    //         return Ok(());
-    //     }
-    // };
-
     let spreadsheet: Arc<Mutex<HashMap<CellIdentifier, CellValue>>> = Arc::new(Mutex::new(HashMap::new()));
+    let expr_spreadsheet: Arc<Mutex<HashMap<CellIdentifier, CellExpr>>> = Arc::new(Mutex::new(HashMap::new()));
 
     std::thread::scope(|s| {
       loop {
